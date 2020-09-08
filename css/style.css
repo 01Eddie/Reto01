@@ -1,0 +1,48 @@
+body{
+background: white url("https://ep01.epimg.net/deportes/imagenes/2018/12/06/actualidad/1544109602_234013_1544117720_noticia_normal.jpg") no-repeat fixed center;
+background-size: 95% 95%;  
+}
+.img{
+  padding: 5px;
+  width: 10%;
+  height: 10%;    
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  
+}
+.header{
+position: absolute;
+top: 45px;
+left: 45px;
+font-size: 18px;/*Tamaño de letra*/
+}
+.body{
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    font-size: 16px; 
+    text-align: right;
+    color: white;
+}
+p{ /*Como modificar los movimientos del texto parrafo*/
+  position: absolute;
+  height: initial;
+}
+.footer {
+  position: fixed;
+  left: 0;/* Estas dos propiedades nose como funciona */
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: firebrick;
+}
+a{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+a:hover, img:hover {
+opacity: 0.5;
+color: aqua;
+}
